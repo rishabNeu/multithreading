@@ -25,3 +25,9 @@ Multithreading Best Practices
 
 
 ## :building_construction: Producer & Consumer
+- **Producer** produces item or does it work and **Consumer** consumes the work done by Producer
+- The above process should be synchronized
+    - If producer is producing then Consumer needs to `wait` till it is completely produced by Producer.
+    - Once, done it can consume till it consumes the producer needs to wait and when `notified` by consumer can again start producing.
+- This can be achieved using `synchronized keyword & inter-thread communications.`
+
