@@ -1,5 +1,6 @@
 # Multithreading
-Multithreading Best Practices
+
+##  :ok_hand: **_Multithreading Best Practices_**
 
 ## :thread: Multithreading -> achieved -> Runnable Interface & Thread class
 - Should go for Runnable since we can implement it along with that we can extend other class as well
