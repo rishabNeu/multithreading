@@ -1,6 +1,4 @@
-# Multithreading
-
-##  :ok_hand: **_Multithreading Best Practices_**
+# :ok_hand: **_Multithreading Best Practices_**
 
 ## :thread: Multithreading -> achieved -> Runnable Interface & Thread class
 - Should go for Runnable since we can implement it along with that we can extend other class as well
@@ -31,4 +29,8 @@
     - If producer is producing then Consumer needs to `wait` till it is completely produced by Producer.
     - Once, done it can consume till it consumes the producer needs to wait and when `notified` by consumer can again start producing.
 - This can be achieved using `synchronized keyword & inter-thread communications.`
+
+## :artist: _Author_
+[Rishab Agarwal](mailto:agarwal.risha@northeastern.edu)
+
 
