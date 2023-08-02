@@ -2,7 +2,7 @@ public class MyThread implements Runnable{
 
     @Override
     public void run() {
-        
+        // task for thread
         for (int i = 1; i <= 10; i++) {
             System.out.println("value of i is : " + i);
             try {
